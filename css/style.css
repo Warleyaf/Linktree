@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-weight: 100;
+    font-family:'Raleway', sans-serif;
+    color: white; /*Aqui eu to falando que os meus textos em meu body vai ser todos brancos*/
+    background: rgb(54,10,120);
+    background: linear-gradient(180deg, rgba(54,10,120,1) 0%, rgba(79,4,193,1) 100%);
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white; /*Fazer a sobra em volta da minha foto*/
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.profile {
+    margin-top: 1.5rem;
+    text-align: center; /*Centralizando o meu profile*/
+}
+
+.social {
+    display: flex; /*Isso aqui vai fazer todos os filhos de social ficar lado a lado*/
+    justify-content: space-around; /*o justify-content só funciona com o flex*/
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+    margin: 20px 0;
+}
+
+.links-list li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.links-list h3 {
+    color: rgb(137, 0, 216);
+}
+.links-list li{
+    padding: 10px 15px;
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: 0 0 10px white;
+}
